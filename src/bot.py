@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 
 from config import API_ID, API_HASH, BOT_TOKEN, PROXY
-from utilities import commands, callbacks
+from handlers import callbacks, commands
 
 app = Client("led_ctrl_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN, proxy=PROXY)
 

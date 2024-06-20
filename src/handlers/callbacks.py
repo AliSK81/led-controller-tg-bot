@@ -1,6 +1,6 @@
 from pyrogram.enums import ParseMode
 
-from led_service import LEDService
+from services.led_service import LEDService
 from utilities.keyboards import get_main_keyboard
 
 led_service = LEDService()

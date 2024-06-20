@@ -23,7 +23,7 @@ python bot.py
 ```
 
 ## Running the Bot with Docker
-1. Update the PROXY_HOSTNAME value in the .env file to host.docker.internal:
+1. Update the `PROXY_HOSTNAME` value in the `.env` file to `host.docker.internal`:
 ```
 PROXY_HOSTNAME=host.docker.internal
 ```
